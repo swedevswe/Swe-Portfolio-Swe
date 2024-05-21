@@ -1,3 +1,6 @@
+Portfolio Website — React, HTML/CSS, JavaScript, GitHub Pages:
+I developed a responsive personal portfolio website to showcase software projects and technical skills. I have utilized Create React App to bootstrap the project, employing advanced CSS for modern, responsive styling. I also integrated React for dynamic content management and ensured seamless deployment through GitHub Pages.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
