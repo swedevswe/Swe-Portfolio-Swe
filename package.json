@@ -2,7 +2,7 @@
   "name": "Swe-Portfolio-Swe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://swedevswe.github.io/Swe-Portfolio-Swe",
+  "homepage": "https://swedevswe.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
