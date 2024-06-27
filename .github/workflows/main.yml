@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'  # Update to Node.js 16 or higher
 
       - name: Install dependencies
         run: npm install
@@ -28,7 +28,7 @@ jobs:
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
-          npm run deploy  # This should run your deploy script defined in package.json
+          npm run deploy
 
         env:
-          CI: true  # Ensures Create React App doesn't ask questions during the build process
+          CI: true
