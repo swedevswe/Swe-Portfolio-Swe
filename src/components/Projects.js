@@ -20,7 +20,7 @@ export const Projects = () => {
     },
     {
       title: "Youtube Transcribe and Translate Web Application",
-      description: "Developed a web app to transcribe and translate YouTube videos using React for the frontend, and Dockerized Node.js and Express.js for the backend. Integrated PayPal API for payments and deployed the frontend on GitHub Pages, with backend API hosted on Render.",
+      description: "Developed and deployed a web app to transcribe and translate YouTube videos using React, Node.js and Express.js. Integrated PayPal API.",
       imgUrl: projImg2,
       githubUrl: "https://github.com/swedevswe/yt-tt.git"
     },
