@@ -4,6 +4,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -18,10 +19,10 @@ export const Projects = () => {
       githubUrl: "https://github.com/swedevswe/Swe-Portfolio.git"
     },
     {
-      title: "Interactive Excel Dashboard: Coffee Sales",
-      description: "An interactive dashboard providing insights into coffee sales data, utilizing advanced Excel features to facilitate data-driven decision-making.",
+      title: "Youtube Transcribe and Translate Web Application- React, Node.js, Express.js, Docker, PayPal API",
+      description: "Developed a web app to transcribe and translate YouTube videos using React for the frontend, and Dockerized Node.js and Express.js for the backend. Integrated PayPal API for payments and deployed the frontend on GitHub Pages, with backend API hosted on Render.",
       imgUrl: projImg2,
-      githubUrl: "https://github.com/swedevswe/Interactive-Excel-Dashboard.git"
+      githubUrl: "https://github.com/swedevswe/yt-tt.git"
     },
     {
       title: "Weather App",
@@ -30,22 +31,10 @@ export const Projects = () => {
       githubUrl: "https://github.com/swedevswe/WeatherApp.git"
     },
     {
-      title: "Movie Recommendation System",
-      description: "Built a system using machine learning algorithms to recommend movies to users based on their viewing history and preferences, enhancing user engagement.",
-      imgUrl: projImg1,
-      githubUrl: "https://github.com/swedevswe/Movie-Recommendation.git"
-    },
-    {
-      title: "Deep-Learning Model: Diabetes or Not!",
-      description: "A deep learning model that predicts diabetes likelihood based on patient data, showcasing my skills in using advanced machine learning frameworks and data science techniques.",
-      imgUrl: projImg2,
-      githubUrl: "https://github.com/swedevswe/Deep-Learning-Model.git"
-    },
-    {
-      title: "Hospital-Management-System",
-      description: "Developed a Hospital Management with SQL Database for secure and persistant storage streamlining the operations by managing patient records, doctor schedules and appointment bookings.",
-      imgUrl: projImg3,
-      githubUrl: "https://github.com/swedevswe/Hospital-Management-System.git"
+      title: "Interactive Excel Dashboard: Coffee Sales",
+      description: "Created an interactive dashboard for analyzing coffee sales, enhancing data-driven decision-making using PivotTables and VLookup.",
+      imgUrl: projImg4,
+      githubUrl: "https://github.com/swedevswe/Interactive-Excel-Dashboard.git"
     },
   ];
 
