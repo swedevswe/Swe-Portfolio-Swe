@@ -19,7 +19,7 @@ export const Projects = () => {
       githubUrl: "https://github.com/swedevswe/Swe-Portfolio.git"
     },
     {
-      title: "Youtube Transcribe and Translate Web Application- React, Node.js, Express.js, Docker, PayPal API",
+      title: "Youtube Transcribe and Translate Web Application",
       description: "Developed a web app to transcribe and translate YouTube videos using React for the frontend, and Dockerized Node.js and Express.js for the backend. Integrated PayPal API for payments and deployed the frontend on GitHub Pages, with backend API hosted on Render.",
       imgUrl: projImg2,
       githubUrl: "https://github.com/swedevswe/yt-tt.git"
@@ -31,7 +31,7 @@ export const Projects = () => {
       githubUrl: "https://github.com/swedevswe/WeatherApp.git"
     },
     {
-      title: "Interactive Excel Dashboard: Coffee Sales",
+      title: "Interactive Excel Dashboard",
       description: "Created an interactive dashboard for analyzing coffee sales, enhancing data-driven decision-making using PivotTables and VLookup.",
       imgUrl: projImg4,
       githubUrl: "https://github.com/swedevswe/Interactive-Excel-Dashboard.git"
