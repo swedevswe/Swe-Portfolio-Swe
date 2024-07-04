@@ -60,9 +60,9 @@ export const Banner = () => {
                 <h1>{`Hello! My name is Swetha and I am an`} <span className="txt-rotate" dataPeriod="2000" data-rotate='[ "Aspiring Software Engineer"]'><span className="wrap">{text}</span></span></h1>
                   <p>My journey into the world of technology began in 2020, fueled by curiosity and a passion for understanding the profound impact software has on our daily lives. Since then, I have dedicated myself to an immersive learning experience, mastering key programming languages and software development methodologies. My portfolio is a reflection of this journey, featuring a diverse array of projects from robust web applications that address real-world challenges to innovative software solutions aimed at enhancing user experiences. Each project not only showcases my technical skills but also my ability to think critically and collaborate effectively within teams.
 
-As I continue to navigate the vibrant path of technology, I am eager to contribute meaningfully to the industry and achieve new heights in software development. Join me as I explore exciting opportunities and strive to make a significant impact in the digital world.</p>
+As I continue to navigate the vibrant path of technology, I am eager to contribute meaningfully to the industry and achieve new heights in software development. </p>
                 <a href={`${process.env.PUBLIC_URL}/Swetha_CV___SWE.pdf`} download="Swetha_CV___SWE.pdf">
-                <button onClick={() => console.log('connect')}>Download My Resume Here<ArrowRightCircle size={25} /></button>
+                <button onClick={() => console.log('connect')}>Download My CV Here<ArrowRightCircle size={25} /></button>
                 </a>
               </div>}
             </TrackVisibility>

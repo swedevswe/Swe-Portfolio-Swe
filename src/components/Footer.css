@@ -1,0 +1,11 @@
+/* src/components/Footer.css */
+.social-icon img {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    margin: 0 10px;
+    transition: transform 0.2s; /* Adds a hover effect */
+}
+
+.social-icon img:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}

@@ -574,6 +574,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+.social-icon img {
+  width: 30px; /* Adjust the size as needed */
+  height: 30px; /* Adjust the size as needed */
+  margin: 0 10px;
+  transition: transform 0.2s; /* Adds a hover effect */
+}
+
+.social-icon img:hover {
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
 
 .App {
   text-align: center;
